@@ -1,0 +1,18 @@
+@font-face {
+    font-family: "karmatic";
+    src: url("ka1.ttf");    
+    }
+body {
+    background-image: url("background.jpg");
+    background-color: #cccccc;
+   }
+canvas{
+    display: block;
+    margin : 5rem auto
+}
+h1{
+    font-family: 'karmatic';
+    text-align: center;
+    color: white;
+    margin-top: 3rem;
+}

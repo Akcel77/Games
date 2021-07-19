@@ -24,7 +24,7 @@ kaboom({
   loadSprite('brick', 'assets/brick.png')
   loadSprite('block', 'assets/block.png')
   loadSprite('mario', 'assets/mario.png')
-  loadSprite('mushroom', 'assets/brick.png')
+  loadSprite('mushroom', 'assets/mushroom.png')
   loadSprite('surprise', 'assets/surprise.png')
   loadSprite('unboxed', 'assets/unboxed.png')
   loadSprite('pipe-top-left', 'assets/pipe-top-left.png')
@@ -45,16 +45,16 @@ kaboom({
   
     const maps = [
       [
-        '                                      ',
-        '                                      ',
-        '                                      ',
-        '                                      ',
-        '                                      ',
-        '     %   =*=%=                        ',
-        '                                      ',
-        '                            -+        ',
-        '                    ^   ^   ()        ',
-        '==============================   =====',
+        '                                                                                                                                    ',
+        '                                                                                                                                    ',
+        '                                                                                                                                    ',
+        '                                                                                                                                    ',
+        '                                                                                                                                    ',
+        '     %   =*=%=                                         =*=%==*=%=                                                                   ',
+        '                                                                                                                                    ',
+        '                                                                                                                                  -+',
+        '                    ^   ^   ^                                           ^ ^ ^                 ^ ^          ^  ^                   ()',
+        '==============================   =====   ============ ==============  ==============  ========================================   ===',
       ],
       [
         '£                                       £',
@@ -67,6 +67,18 @@ kaboom({
         '£                        x x x x  x   -+£',
         '£               z   z  x x x x x  x   ()£',
         '!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!',
+      ],
+      [
+        '£                                                                                                         £',
+        '£                                                                                                         £',
+        '£                                                                                                         £',
+        '£                                                                                                         £',
+        '£                                                                       x x                               £',
+        '£        @@@@@@              x x  x x                                x x                                  £',
+        '£                          x x x  x x x                           x x         @@@@@@                      £',
+        '£                        x x x x  x x x x                     x x                                       -+£',
+        '£               z   z  x x x x x  x x x x x               x x                    z   zz   z             ()£',
+        '!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!',
       ]
     ]
   
